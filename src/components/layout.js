@@ -62,11 +62,23 @@ class Layout extends React.Component {
       >
         <header>{header}</header>
         <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
+      
+ 
+<footer class="text-center text-secondary">
+
+    <div class="flex jc-sb ">
+          <div class="flex-item">
+            
+            <p>&copy; 2020 All India Dank Memes</p>
+        </div>
+          <div class="flex-item">
+            <p>
+                Designed & Developed with ❤️ by
+            <a href="https://DesiMemeWala.com/"> DesiBoi</a>
+            </p>
+        </div>
+      </div>
+      </footer>
       </div>
     )
   }

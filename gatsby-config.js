@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
-    author: `Kyle Mathews`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    title: `Welcome to AIDM Blog`,
+    author: `Ashutosh`,
+    description: `AIDM blog`,
+    siteUrl: `https://allindiadankmemes.in//`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `aidmemes`,
     },
   },
   plugins: [
@@ -57,13 +57,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `All India Dank Memes Blog`,
+        short_name: `AIDM blog`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/aidm-logo.jpg`,
       },
     },
     `gatsby-plugin-react-helmet`,
