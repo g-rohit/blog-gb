@@ -69,12 +69,11 @@ class Layout extends React.Component {
     <div class="flex jc-sb ">
           <div class="flex-item">
             
-            <p>&copy; 2020 All India Dank Memes</p>
+            <p>&copy; 2020 <a href="https://https://allindiadankmemes.in/">All India Dank Memes</a></p>
         </div>
           <div class="flex-item">
             <p>
-                Designed & Developed with ❤️ by
-            <a href="https://DesiMemeWala.com/"> DesiBoi</a>
+                Designed & Developed with ❤️ by <a href="https://DesiMemeWala.com/">DesiBoi</a>
             </p>
         </div>
       </div>

@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Welcome to AIDM Blog`,
+    title: `All India Dank Memes Blog`,
     author: `Ashutosh`,
     description: `AIDM blog`,
     siteUrl: `https://allindiadankmemes.in//`,
