@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `All India Dank Memes Blog`,
-    author: `Ashutosh`,
+    author: `AIDM`,
     description: `AIDM blog`,
-    siteUrl: `https://allindiadankmemes.in//`,
+    siteUrl: `https://allindiadankmemes.in/`,
     social: {
       twitter: `aidmemes`,
     },
@@ -60,7 +60,7 @@ module.exports = {
         name: `All India Dank Memes Blog`,
         short_name: `AIDM blog`,
         start_url: `/`,
-        background_color: `#ffffff`,
+        background_color: `#FFFFFF`,
         theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `content/assets/aidm-logo.jpg`,
@@ -73,6 +73,7 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
+    `gatsby-plugin-sass`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

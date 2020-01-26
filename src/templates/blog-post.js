@@ -17,22 +17,26 @@ class BlogPostTemplate extends React.Component {
         <SEO
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
-        />
+        />              <a href="/" style={{color: `#1b1aff`, 'text-decoration': `none`,}}>← Go back to home</a>
         <article>
           <header>
             <h1
               style={{
                 marginTop: rhythm(1),
                 marginBottom: 0,
+                color: `#DE1B85`, //pink color
+
               }}
             >
               {post.frontmatter.title}
+
             </h1>
             <p
               style={{
                 ...scale(-1 / 5),
                 display: `block`,
                 marginBottom: rhythm(1),
+
               }}
             >
               {post.frontmatter.date}
@@ -61,14 +65,16 @@ class BlogPostTemplate extends React.Component {
           >
             <li>
               {previous && (
-                <Link to={previous.fields.slug} rel="prev">
+                <Link to={previous.fields.slug} rel="prev" style={{"text-decoration": `none`,
+                "border-bottom": ` 1px solid`,color:'#8300ff',}}>
                   ← {previous.frontmatter.title}
                 </Link>
               )}
             </li>
             <li>
               {next && (
-                <Link to={next.fields.slug} rel="next">
+                <Link to={next.fields.slug} rel="next" style={{"text-decoration": `none`,
+                "border-bottom": ` 1px solid`,color:'#8300ff',}}>
                   {next.frontmatter.title} →
                 </Link>
               )}
