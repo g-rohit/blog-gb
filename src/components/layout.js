@@ -70,7 +70,7 @@ class Layout extends React.Component {
         style={{
           marginLeft: `auto`,
           marginRight: `auto`,
-          maxWidth: rhythm(24),
+          maxWidth: rhythm(30),
           padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
         }}
       >
@@ -81,8 +81,7 @@ class Layout extends React.Component {
             <div>
                
                 &copy; 2020{" "}
-                <a href="https://allindiadankmemes.in/"  style={{color:'#000000', "text-decoration": `none`,
-                "border-bottom": ` 1px solid`,}}>
+                <a href="https://allindiadankmemes.in/"  className="blackLink">
                   All India Dank Memes
                 </a>
               
@@ -90,8 +89,7 @@ class Layout extends React.Component {
             <div>
                
                 Maintained with <span role='img' aria-label="heart emoji">❤️</span> by{" "}
-                <a href="https://DesiMemeWala.com/" target="_blank" rel="noopener noreferrer" style={{color:'#000000', "text-decoration": `none`,
-                "border-bottom": ` 1px solid`,}}>DesiBoi</a>
+                <a href="https://DesiMemeWala.com/" target="_blank" rel="noopener noreferrer" className="blackLink">DesiBoi</a>
               
             </div>
           </div>

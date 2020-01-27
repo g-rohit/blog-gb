@@ -57,8 +57,7 @@ const Bio = () => {
         Written by <strong>{author}</strong>
         {` `}
           <br/>  
-        <a href={`https://twitter.com/${social.twitter}`} style={{"textDecoration": `none`,
-                "borderBottom": ` 1px solid`,color:'#8300ff',}}>
+        <a href={`https://twitter.com/${social.twitter}`} className="blackLink small">
         Follow AIDM on Twitter
         </a>
       </p>

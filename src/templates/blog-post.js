@@ -17,7 +17,9 @@ class BlogPostTemplate extends React.Component {
         <SEO
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
-        />              <a href="/" style={{color: `#1b1aff`, 'text-decoration': `none`,}}>← Go back to home</a>
+        />                <Link style={{ boxShadow: `none` }} className="blackLink small" to={'/'}>
+        {'← Go back to home'}
+      </Link>
         <article>
           <header>
             <h1
@@ -39,7 +41,7 @@ class BlogPostTemplate extends React.Component {
 
               }}
             >
-              {post.frontmatter.date}
+              <span role="img" aria-label="calender">📅</span> {post.frontmatter.date}
             </p>
           </header>
           <section dangerouslySetInnerHTML={{ __html: post.html }} />

@@ -19,7 +19,7 @@ class BlogIndex extends React.Component {
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
-            <article key={node.fields.slug}>
+            <article key={node.fields.slug} className="eachArticle">
               <header>
                 <h3
                   style={{
@@ -30,7 +30,7 @@ class BlogIndex extends React.Component {
                     {title}
                   </Link>
                 </h3>
-                <small>{node.frontmatter.date}</small>
+                <small><span role="img" aria-label="calender">📅</span> {node.frontmatter.date}</small>
               </header>
               <section>
                 <p
@@ -39,6 +39,9 @@ class BlogIndex extends React.Component {
                   }}
                 />
               </section>
+              <Link className="continueReading" to={node.fields.slug}>
+                    {'Continue reading →'}
+                  </Link>
             </article>
           )
         })}
