@@ -18,21 +18,8 @@ class Layout extends React.Component {
             marginTop: 0,
             fontSize: `2.5em`,
           }}
-        >
-          <Link
-            style={{
-
-              boxShadow: `none`,
-              textDecoration: `none`,
- 
-                background: `linear-gradient(to right, #7f00ff, #e100ff)`,
-              "background-clip": `text`,
-              "-webkit-background-clip": `text`,
-              color: `transparent`,
-              "background-size": `150%`,
-            }}
-            to={`/`}
-          >
+          className="homePageTitle">
+          <Link to={`/`} >
             {title}
           </Link>
         </h1>
@@ -45,21 +32,8 @@ class Layout extends React.Component {
             marginTop: 0,
 
           }}
-        >
-          <Link
-            style={{
-              boxShadow: `none`,
-             
-              background: `linear-gradient(to right, #7f00ff, #e100ff)`,
-              "backgroundClip": `text`,
-              "-webkitBackgroundClip": `text`,
-              color: `transparent`,
-              "backgroundSize": `150%`,
-              "textDecoration": `none`,
-              "borderBottom": ` 1px solid`,
-            }}
-            to={`/`}
-          >
+          className="homePageTitle">
+          <Link to={`/`} >
             {title}
           </Link>
         </h3>
@@ -88,7 +62,7 @@ class Layout extends React.Component {
             </div>
             <div>
                
-                Maintained with <span role='img' aria-label="heart emoji">❤️</span> by{" "}
+                Desinged & Developed with <span role='img' aria-label="heart emoji">❤️</span> by{" "}
                 <a href="https://DesiMemeWala.com/" target="_blank" rel="noopener noreferrer" className="blackLink">DesiBoi</a>
               
             </div>

@@ -1,3 +1,23 @@
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
 h3 {
     line-height: inherit !important;
 }
@@ -20,8 +40,25 @@ html {
     position: relative;
 }
 
+strong {
+    font-weight: 600;
+}
+
 .small {
     font-size: 0.8em;
+}
+
+.homePageTitle {
+    text-align: center;
+    box-shadow: none;
+text-decoration: none;
+ background: linear-gradient(to right, #7f00ff, #e100ff);
+ background-clip: text;
+ -webkit-background-clip: text;
+    color: transparent;
+background-size: 150%;
+transition: all 0.5s;
+ 
 }
  
 .eachArticle {
@@ -58,10 +95,39 @@ border-bottom: 1px solid;
     border-bottom:  none;
 }
 
-section > h4 {
-    box-shadow: none;
+.eachBlogPost > p > a , .eachBlogPost > p > strong > a {
+ 
+    background: -webkit-gradient(linear, left top, right top, from(#7f00ff), to(#e100ff));
+    background: linear-gradient(to right, rgb(57, 106, 252), rgb(41, 72, 255));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: 150%;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+font-weight: 500;
+}
+
+
+.eachBlogPost > p > a:hover , .eachBlogPost > p > strong > a:hover { 
     background: linear-gradient(to right, rgb(241, 39, 17), rgb(245, 175, 25)) 0% 0% / 150% text;
     background-image: linear-gradient(to right, rgb(241, 39, 17), rgb(245, 175, 25));
+    border-bottom: none;
+}
+
+.gatsby-resp-image-link {
+box-shadow: 1px 2px 20px 8px #00000030;
+    border-radius: 10px;
+}
+
+.gatsby-resp-image-image {
+    border-radius: 10px;
+
+}
+section > h4 , section > h3{
+    box-shadow: none;
+    background: linear-gradient(to right, rgb(238, 9, 121), rgb(255, 106, 0)) 0% 0% / 150% text;
+    background-image: linear-gradient(to right, rgb(238, 9, 121), rgb(255, 106, 0));
     background-position-x: initial;
     background-position-y: initial;
     background-size: 150%;

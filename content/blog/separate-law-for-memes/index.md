@@ -1,4 +1,5 @@
 ---
+thumbnail: https://dummyimage.com/1000x400/000/fff
 title: "Why do we need a separate law for memes in India?"
 date: "2018-12-07T00:00:00.000Z"
 description: "Random memes are “destroying” fragile-egos, national or religious sentiments, political beliefs of people with low IQ and what not. And it is high time we need a separate law for memes in India!"

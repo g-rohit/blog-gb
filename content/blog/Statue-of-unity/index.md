@@ -1,4 +1,5 @@
 ---
+thumbnail: https://dummyimage.com/1000x400/000/fff
 title: Statue Of Unity And Why Do We Need More Such Statues?
 date: "2018-11-28T22:12:03.284Z"
 description: "Most of us oozed happiness in our pants when we finally saw the statue of unity being unveiled. Our ecstatic trip was further extended when an even…"

@@ -1,4 +1,5 @@
 ---
+thumbnail: https://dummyimage.com/1000x400/000/fff
 title: Ben Shapiro Gets DESTROYED
 date: "2019-05-12T22:12:03.284Z"
 description: "There’s a clip going viral on the internet involving Ben Shapiro in a heated argument with a ‘Leftist’. That word is stressed in single quotes because Ben Shapiro referred to Andrew Neil, ..."

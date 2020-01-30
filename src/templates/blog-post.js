@@ -6,11 +6,14 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
 
+ 
+
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
     const { previous, next } = this.props.pageContext
+ 
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -18,9 +21,8 @@ class BlogPostTemplate extends React.Component {
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />                <Link style={{ boxShadow: `none` }} className="blackLink small" to={'/'}>
-        {'← Go back to home'}
-      </Link>
-        <article>
+        {'← Go back to home'}</Link> <span role="img" aria-label="home-emoji">🏠</span>
+        <article >
           <header>
             <h1
               style={{
@@ -44,7 +46,7 @@ class BlogPostTemplate extends React.Component {
               <span role="img" aria-label="calender">📅</span> {post.frontmatter.date}
             </p>
           </header>
-          <section dangerouslySetInnerHTML={{ __html: post.html }} />
+          <section dangerouslySetInnerHTML={{ __html: post.html }} className="eachBlogPost"/>
           <hr
             style={{
               marginBottom: rhythm(1),
@@ -53,6 +55,7 @@ class BlogPostTemplate extends React.Component {
           <footer>
             <Bio />
           </footer>
+          
         </article>
 
         <nav>
@@ -105,6 +108,7 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        thumbnail
       }
     }
   }

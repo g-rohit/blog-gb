@@ -1,4 +1,5 @@
 ---
+thumbnail: https://dummyimage.com/1000x400/000/fff
 title: Urjit Patel Resigns; Rupee Set For A Downfall
 date: "2018-12-10T22:12:03.284Z"
 description: "India’s central bank governor Urjit Patel resigns."

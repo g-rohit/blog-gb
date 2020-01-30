@@ -6,21 +6,32 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 
+
 class BlogIndex extends React.Component {
   render() {
     const { data } = this.props
+    // const blogThumbnail = node
     const siteTitle = data.site.siteMetadata.title
     const posts = data.allMarkdownRemark.edges
+
+    console.log('data is:');
+    console.log(data);
+    
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All posts" />
         <Bio />
         {posts.map(({ node }) => {
+          const thumbnail = node.frontmatter.thumbnail
           const title = node.frontmatter.title || node.fields.slug
           return (
             <article key={node.fields.slug} className="eachArticle">
               <header>
+                {/* <img src={thumbnail}>
+                  
+                </img>
+                <span>{thumbnail}</span>   */}
                 <h3
                   style={{
                     marginBottom: rhythm(1 / 4),
