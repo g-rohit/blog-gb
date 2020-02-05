@@ -62,7 +62,7 @@ class Layout extends React.Component {
             </div>
             <div>
                
-                Desinged & Developed with <span role='img' aria-label="heart emoji">❤️</span> by{" "}
+            Designed & Developed with <span role='img' aria-label="heart emoji">❤️</span> by{" "}
                 <a href="https://DesiMemeWala.com/" target="_blank" rel="noopener noreferrer" className="blackLink">DesiBoi</a>
               
             </div>

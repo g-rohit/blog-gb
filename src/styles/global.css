@@ -95,7 +95,7 @@ border-bottom: 1px solid;
     border-bottom:  none;
 }
 
-.eachBlogPost > p > a , .eachBlogPost > p > strong > a {
+.eachBlogPost > p > a , .eachBlogPost > p > strong > a , .imageCredits > a {
  
     background: -webkit-gradient(linear, left top, right top, from(#7f00ff), to(#e100ff));
     background: linear-gradient(to right, rgb(57, 106, 252), rgb(41, 72, 255));
@@ -109,7 +109,7 @@ font-weight: 500;
 }
 
 
-.eachBlogPost > p > a:hover , .eachBlogPost > p > strong > a:hover { 
+.eachBlogPost > p > a:hover , .eachBlogPost > p > strong > a:hover ,.imageCredits > a:hover { 
     background: linear-gradient(to right, rgb(241, 39, 17), rgb(245, 175, 25)) 0% 0% / 150% text;
     background-image: linear-gradient(to right, rgb(241, 39, 17), rgb(245, 175, 25));
     border-bottom: none;
@@ -120,19 +120,29 @@ box-shadow: 1px 2px 20px 8px #00000030;
     border-radius: 10px;
 }
 
-.gatsby-resp-image-image {
+.gatsby-resp-image-image, .gatsby-resp-image-background-image {
     border-radius: 10px;
 
+
 }
+
+.imageCredits {
+    text-align: center;
+    display: block;
+    font-size: 0.8em;
+    padding-top: 5px;
+    
+}
+
 section > h4 , section > h3{
     box-shadow: none;
-    background: linear-gradient(to right, rgb(238, 9, 121), rgb(255, 106, 0)) 0% 0% / 150% text;
-    background-image: linear-gradient(to right, rgb(238, 9, 121), rgb(255, 106, 0));
+    background: linear-gradient(to left, #ffeb00, #ff0000cc) 0% 0% / 150% text;
+    background-image: linear-gradient(to left, #ffeb00, #ff0000cc);
     background-position-x: initial;
     background-position-y: initial;
     background-size: 150%;
-    background-repeat-x: initial;
-    background-repeat-y: initial;
+    /* background-repeat-x: initial;
+    background-repeat-y: initial; */
     background-attachment: initial;
     background-origin: initial;
     background-clip: text;

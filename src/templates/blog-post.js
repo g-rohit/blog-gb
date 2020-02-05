@@ -21,7 +21,7 @@ class BlogPostTemplate extends React.Component {
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />                <Link style={{ boxShadow: `none` }} className="blackLink small" to={'/'}>
-        {'← Go back to home'}</Link> <span role="img" aria-label="home-emoji">🏠</span>
+        {'← Go back to blog homepage'}</Link> <span role="img" aria-label="home-emoji">🏠</span>
         <article >
           <header>
             <h1

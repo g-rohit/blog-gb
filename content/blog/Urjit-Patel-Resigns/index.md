@@ -5,7 +5,7 @@ date: "2018-12-10T22:12:03.284Z"
 description: "India’s central bank governor Urjit Patel resigns."
 ---
 
-![urjit-patel-reuters](./urjit-patel-reuters-l-1.jpg)
+![urjit-patel-reuters](urjit-patel.jpg)
 
 ### HIGHLIGHTS:
 
