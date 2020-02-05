@@ -54,7 +54,7 @@ const Bio = () => {
         }}
       />
       <p>
-        Written by <strong>{author}</strong>
+        Powered by <strong>{author}</strong>
         {` `}
           <br/>  
         <a href={`https://twitter.com/${social.twitter}`} className="blackLink small">

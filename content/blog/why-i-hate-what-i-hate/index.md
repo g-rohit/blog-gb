@@ -56,4 +56,4 @@ What pains me are the lies and people, like swine, indulging themselves in it li
 
 So to sum it up. BJP is actually a communist government hell-bent on authoritarianism but has somehow managed to fool 1.2 billion people into thinking that they are doing something good.
 
- 
+<strong><em>- <a href="https://www.instagram.com/karan4lp" target="_blank">Yetnesh Dubey (@karan4lp)</a></em></strong>
