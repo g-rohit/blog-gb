@@ -1,3 +1,4 @@
+@import url('https://pro.fontawesome.com/releases/v5.12.0/css/all.css');
 /* width */
 ::-webkit-scrollbar {
     width: 10px;
@@ -188,6 +189,44 @@ section > h4 , section > h3{
     transition:  all 0.5s;
 }
 
+.flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    
+}
+
+.socialShareSection p {
+    color: #000;
+    line-height: 1.6;
+    font-size: .8em;
+}
+
+.socialShareSection ul {
+    list-style: none;
+}
+.socialShareSection ul li a{
+text-decoration: none;
+border: none;
+margin:15px ;
+}
+
+.fab, .fa {
+    transition: all 0.5s;
+
+}
+
+.fa-facebook-square:hover {
+    color: #4267B2;
+    transition: all 0.5s;
+    
+}
+
+.fa-twitter-square:hover {
+    color : #1DA1F2;
+    transition: all 0.5s;
+
+}
 
 /*=================== Media Queries ===================*/
 
